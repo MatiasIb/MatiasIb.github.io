@@ -58,7 +58,7 @@
 /*Content*/
 
 /*Sobre mi*/
-#contenedorSobreMi{
+.contenedorSobreMi{
 background-color: #F8F0F0;
 padding-bottom: 2.5%;
 }
