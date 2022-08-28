@@ -1,0 +1,229 @@
+/* Import google font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&family=Roboto:wght@700&display=swap');
+
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+/* Top */
+#nav span{
+  font-family: 'Roboto', sans-serif;
+  font-size: 187.5%
+}
+#top {
+  background-image: url('img/img-central.png');
+  background-position: 0%;
+}
+#top{
+  color: white ;
+}
+#nav {
+  background-color: transparent !important;
+}
+
+#nav span {
+  color: white;
+  padding-left: 4%;
+}
+.navButtons{
+  width: 47%;
+}
+
+.navButtons button {
+  margin-right: 3%;
+  border-radius: 10%;
+  font-family: 'Inter', sans-serif;
+  font-size: 75%;
+  background-color: #030303;
+}
+
+/* Top*/
+
+/*Content*/
+.contenido h1,h3 {
+  font-family: 'Playfair Display', serif;
+}
+.contenido button {
+  font-family: 'Inter', sans-serif;
+  font-size: 75%
+}
+
+.contenido button{
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: #27333E;
+  color: white;
+}
+
+.contenido {
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+/*Content*/
+
+/*Sobre mi*/
+.contenedorSobreMi{
+background-color: #F8F0F0;
+padding-bottom: 2.5%;
+}
+
+#sobreMiTexto h2 {
+  padding-left: 4%;
+  font-size: 143.75%;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  justify-content: center;
+}
+#sobreMiTexto p {
+  padding-left: 4% ;
+  font-size: 93.75%;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+#comoMeDescribiriaTexto h2{
+  padding-left: 4%;
+  font-size: 143.75%;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#comoMeDescribiriaTexto p {
+  padding-left: 4% ;
+  font-size: 93.75%;
+  font-family: 'Inter', sans-serif;
+  padding-right: 4%;
+  text-align: center;
+}
+/*Sobre mi*/
+
+/* Skills */
+#containerSkills{
+  background-color: #ecf7fd;
+  text-align: center;
+}
+
+#containerSkills h4 {
+  margin-top: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+#containerSkills p {
+  margin-top: 10px;
+  font-family: 'Inter', sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#ContenedorImagenes {
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+#contenedorImagenes img {
+  height: 100px;
+  width: 100px;
+  margin: 5px 10px;
+  border-radius: 10%;
+}
+
+#ultimaLinea {
+  margin-bottom: 0;
+}
+/* Skills */
+
+/* Mis Proyectos */
+#contenedorProyectos {
+  background-color: #F8F0F0;
+  text-align: center;
+}
+#contenedorCards{
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#card{
+margin: 2%;
+width: 286px;
+height: 394px;
+}
+/* Mis Proyectos */
+
+/* Contacto */
+
+#containerContacto{
+  text-align: center;
+  background-color: #ecf7fd ;
+}
+
+#containerContacto h4{
+  font-family: 'Playfair Display', serif;
+}
+
+
+#contenidoContacto{
+  display: flex;
+  justify-content:space-around ;
+}
+
+#contenidoContacto p{
+  text-align: left;
+  margin-left: 2%;
+  font-size: large;
+}
+
+#contenidoContacto a {
+  text-decoration: none;
+  color:black;
+}
+
+#contenidoContacto .row {
+  width: 100%;
+}
+
+
+#formulario input{
+  margin: 4% 2%;
+}
+
+#formulario textarea{
+  margin: 4% 2%;
+}
+
+#formulario h4{
+  font-family: 'Playfair Display', serif;
+}
+
+#divFormulario {
+  margin-bottom: 6%;
+}
+
+#iconoRedes {
+  text-align: left;
+}
+
+#iconoRedes img{
+  width: 35px;
+  margin: 0 3%;
+}
+
+
+footer {
+  padding-top: 10px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  background-color: #030303;
+  color: white;
+  height: 80px;
+  font-size: 100%;
+  font-family: 'Inter', sans-serif;
+}
+/* Contacto */
