@@ -91,6 +91,12 @@ padding-bottom: 2.5%;
   text-align: center;
 }
 
+#img img{
+  width: 250px;
+  margin: auto;
+  border-radius: 70px;
+}
+
 #comoMeDescribiriaTexto h2{
   padding-left: 4%;
   font-size: 143.75%;
@@ -164,6 +170,7 @@ margin: 2%;
 width: 286px;
 height: 394px;
 position:initial;
+border: 1px solid #7C7976;
 }
 /* Mis Proyectos */
 
