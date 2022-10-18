@@ -5,10 +5,12 @@
   --bs-gutter-x: 0rem !important;
 }
 /* Top */
-#nav span{
-  font-family: 'Roboto', sans-serif;
-  font-size: 187.5%
-}
+
+/* nav responsivo */
+
+
+/* nav responsivo */
+
 #top {
   background-image: url('img/img-central.png');
   background-position: 0%;
@@ -16,13 +18,21 @@
 #top{
   color: white ;
 }
-#nav {
+
+#nav{
   background-color: transparent !important;
 }
 
-#nav span {
+#navbarNav {
+  justify-content: end;
+}
+.navbar-brand{
+  margin-left: 40px;
+}
+
+#nav a {
   color: white;
-  padding-left: 4%;
+  font-family: 'Inter', sans-serif;
 }
 .navButtons{
   width: 47%;
@@ -30,7 +40,7 @@
 
 .navButtons button {
   margin-right: 3%;
-  border-radius: 10%;
+  border-radius: 10px;
   font-family: 'Inter', sans-serif;
   font-size: 75%;
   background-color: #030303;
@@ -153,6 +163,7 @@ padding-bottom: 2.5%;
 margin: 2%;
 width: 286px;
 height: 394px;
+position:initial;
 }
 /* Mis Proyectos */
 
@@ -227,3 +238,21 @@ footer {
   font-family: 'Inter', sans-serif;
 }
 /* Contacto */
+
+@media screen and (max-width: 600px){
+  #nav{
+    background-color: white !important;
+  }
+  #nav a {
+    color: black !important;
+  }
+  #optionMenu{
+    border-bottom: 1px solid black;
+  }
+  
+  .navbar-toggler{
+    background-color: white !important;
+  }
+  
+}
+
