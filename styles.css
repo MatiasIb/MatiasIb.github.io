@@ -91,9 +91,12 @@ padding-bottom: 2.5%;
   text-align: center;
 }
 
+#img {
+  display: flex;
+  justify-content: center;
+}
 #img img{
   width: 250px;
-  margin: auto;
   border-radius: 70px;
 }
 
